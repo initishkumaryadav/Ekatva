@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Chivo:wght@300;400;700&family=JetBrains+Mono:wght@300;400;500&display=swap');
+
+/* Font classes */
+.font-heading {
+  font-family: 'Michroma', sans-serif;
+}
+.font-body {
+  font-family: 'Chivo', sans-serif;
+}
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 240, 255, 0.15);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 240, 255, 0.3);
+}
+
+/* Selection */
+::selection {
+  background: rgba(0, 240, 255, 0.2);
+  color: #ffffff;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove default outlines, use custom */
+*:focus-visible {
+  outline: 1px solid rgba(0, 240, 255, 0.4);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Canvas container */
+canvas {
+  display: block;
+}

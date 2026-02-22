@@ -1,0 +1,151 @@
+{
+  "university": {
+    "name": "Shri Mata Vaishno Devi University",
+    "shortName": "SMVDU",
+    "established": 1999,
+    "inaugurated": "19th August 2004",
+    "inauguratedBy": "Dr. A.P.J Abdul Kalam, Hon'ble President of India",
+    "type": "Fully Residential & Technical University",
+    "location": "Katra, Jammu & Kashmir 182320",
+    "campusArea": "470 acres",
+    "altitude": "2700 feet above sea level",
+    "terrain": "Trikuta Hills",
+    "website": "https://smvdu.ac.in",
+    "aboutUrl": "https://smvdu.ac.in/about-us/",
+    "mapUrl": "https://goo.gl/maps/Z4tU8J7k9gU8n4b19",
+    "coordinates": {
+      "lat": 32.9415,
+      "lng": 74.954
+    },
+    "contact": {
+      "phone": "9622337733",
+      "email": "info@smvdu.ac.in"
+    },
+    "description": "Shri Mata Vaishno Devi University was established under an Act of J&K State Legislature in 1999 as a fully residential and technical university, the first of its kind in J&K. Recognized by UGC under Section 2(f) & 12(B) of the UGC Act of 1956, the university receives funding from UGC.",
+    "campusDescription": "The University is located on 470 acres of land in the lap of Trikuta Hills, the abode of Shri Mata Vaishno Devi at about 2700 feet above the sea level. The pyramidal type architecture merges beautifully with the valley like ambience of the surrounding serene hills. The surrounding green hills and the perennial stream of Jhajjar in the east minimize the effects of hot and cold winds and produce a pollution free atmosphere on the campus.",
+    "rankings": [
+      { "rank": "31st", "category": "Architecture Institutions", "framework": "NIRF 2024" },
+      { "rank": "151-200", "category": "Engineering Institutions", "framework": "NIRF 2024" },
+      { "rank": "51-100", "category": "Top Universities", "framework": "NIRF 2024" }
+    ],
+    "recognition": [
+      "UGC under Section 2(F) & Section 12(B) of UGC Act of 1956",
+      "AICTE (All India Council of Technical Education) for technical programs",
+      "Council of Architecture for Architecture program"
+    ],
+    "vision": "Establishment of a Scientific & Technical University of Excellence to nurture young talented human resource for the service of Indian Society & World at large preserving the integrity and sanctity of human values.",
+    "mission": "The Mission of the University is the pursuit of Education, Scholarship and Research and its application to the Society at highest International levels of excellence.",
+    "coreValues": [
+      "Academic Integrity and Accountability",
+      "Respect and Tolerance for the views of every Individual",
+      "Attention to issues of National relevance as well as of global concern",
+      "Appreciation of intellectual excellence and creativity",
+      "Ceaseless aptitude of scientific exploration"
+    ],
+    "administration": {
+      "chancellor": "His Excellency the Lieutenant Governor of J&K, Sh. Manoj Sinha",
+      "viceChancellor": "Prof. (Dr.) Pragati Kumar",
+      "registrar": "Sh. Ajay Kumar Sharma (JKAS)"
+    },
+    "vcImage": "https://smvdu.ac.in/wp-content/uploads/2023/06/final2-1.jpg",
+    "logoDescription": "The Design of the logo looks like a Lotus, a symbol of regeneration or a flame. The three green bars are symbolic representation of three holy peaks of Trikuta Hills and/or the three 'pindies' in Shri Mata Vaishno Devi Shrine. The Sun, the giver of Light, Warmth, Time, Direction, Life Force, Energy, Power, Radiance and Enlightenment have been shown surrounded by radiating rays going out to nine planets of the Solar System.",
+    "motto": "GOD (BRAHMA) IS SCIENCE",
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/SMVDUniversity/",
+      "linkedin": "https://www.linkedin.com/school/shri-mata-vaishno-devi-university",
+      "twitter": "https://twitter.com/smvduofficial",
+      "youtube": "https://www.youtube.com/SMVDUniversity",
+      "instagram": "https://www.instagram.com/smvduniversityofficial/"
+    },
+    "images": {
+      "vcPhoto": "https://smvdu.ac.in/wp-content/uploads/2023/06/final2-1.jpg",
+      "campusAerial": "https://smvdu.ac.in/wp-content/uploads/2018/08/about-icon-1.png"
+    }
+  },
+  "ekatva": {
+    "name": "EKATVA",
+    "fullName": "EKATVA — The Annual Techfest of SMVDU",
+    "tagline": "Where Technology Meets Divinity",
+    "description": "Ekatva is the annual techfest of Shri Mata Vaishno Devi University, nestled in the sacred hills of Katra, Jammu & Kashmir. For three electrifying days, students from across India converge to compete, innovate, and celebrate the spirit of technology — from intense hackathons and adrenaline-pumping RoboWars to cutting-edge AI workshops and immersive tech exhibitions.",
+    "website": "https://ekatva-fest.smvdu.ac.in/",
+    "eventsUrl": "https://ekatva-fest.smvdu.ac.in/events.html"
+  },
+  "subFests": [
+    {
+      "id": "titiksha",
+      "name": "Titiksha",
+      "description": "TITIKSHA is a technical festival that has achieved great feats since its inception in 2008. The festival is held annually at Shri Mata Vaishno Devi University in Jammu and Kashmir, a highly technical and fully residential university that started functioning as an academic unit in 2010.",
+      "since": 2008,
+      "academicStart": 2010,
+      "color": "#00F0FF",
+      "icon": "cpu"
+    },
+    {
+      "id": "srijan",
+      "name": "Srijan",
+      "description": "Srijan is a technical festival that has achieved great feats since its inception in 2008. The festival is held annually at Shri Mata Vaishno Devi University in Jammu and Kashmir, a highly technical and fully residential university that started functioning as an academic unit in 2012.",
+      "since": 2008,
+      "academicStart": 2012,
+      "color": "#A855F7",
+      "icon": "palette"
+    },
+    {
+      "id": "artha",
+      "name": "Artha",
+      "description": "Artha is a technical festival that has achieved great feats since its inception in 2008. The festival is held annually at Shri Mata Vaishno Devi University in Jammu and Kashmir, a highly technical and fully residential university that started functioning as an academic unit in 2012.",
+      "since": 2008,
+      "academicStart": 2012,
+      "color": "#10B981",
+      "icon": "trending-up"
+    },
+    {
+      "id": "tatva",
+      "name": "Tatva",
+      "description": "Tatva is a technical festival that has achieved great feats since its inception in 2008. The festival is held annually at Shri Mata Vaishno Devi University in Jammu and Kashmir, a highly technical and fully residential university that started functioning as an academic unit in 2016.",
+      "since": 2008,
+      "academicStart": 2016,
+      "color": "#F97316",
+      "icon": "atom"
+    },
+    {
+      "id": "jeevant",
+      "name": "Jeevant",
+      "description": "Jeevant is a biotech department festival that has achieved great feats since its inception in 2008. The festival is held annually at Shri Mata Vaishno Devi University in Jammu and Kashmir, a highly technical and fully residential university that started functioning as an academic unit in 2025.",
+      "since": 2008,
+      "academicStart": 2025,
+      "color": "#22C55E",
+      "icon": "leaf"
+    }
+  ],
+  "nearestTouristPlaces": [
+    {
+      "name": "Vaishno Devi Temple",
+      "description": "One of the most revered Hindu temples dedicated to Goddess Vaishno Devi, nestled in the Trikuta Mountains at 5,200 feet.",
+      "distance": "14 km from campus"
+    },
+    {
+      "name": "Patnitop Hill Station",
+      "description": "A scenic plateau at 2,024m altitude on the Jammu-Srinagar highway, offering panoramic views and adventure sports.",
+      "distance": "80 km from campus"
+    },
+    {
+      "name": "Amar Palace",
+      "description": "Historic Amar Mahal Palace in Jammu, now a museum housing rare artifacts, paintings, and a golden throne.",
+      "distance": "45 km from campus"
+    }
+  ],
+  "howToReach": {
+    "description": "The university campus is located 14 km short of the holy town of Katra, and 40 km from Jammu. The campus is well-connected by Road, Rail & Air.",
+    "byRoad": "Well-connected via National Highway NH-44. Regular buses from Jammu, Delhi, and other cities.",
+    "byRail": "Nearest railway station: Katra (Shri Mata Vaishno Devi Katra Railway Station), 14 km away.",
+    "byAir": "Nearest airport: Jammu Airport (IXJ), approximately 50 km away."
+  },
+  "_meta": {
+    "scrapedFrom": [
+      "https://ekatva-fest.smvdu.ac.in/about.html",
+      "https://smvdu.ac.in/about-us/"
+    ],
+    "scrapedDate": "2026-02-23",
+    "note": "This JSON file preserves all scraped data so the site remains functional even if source URLs go down. Update this file directly to change About page content."
+  }
+}
