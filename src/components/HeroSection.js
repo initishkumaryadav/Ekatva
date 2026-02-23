@@ -63,7 +63,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.7 }}
           className="font-mono text-xs md:text-sm text-purple-400/70 tracking-[0.2em] mb-10"
         >
-          MARCH 14 - 16, 2026 &bull; KATRA, J&K
+          MARCH 9 - 11, 2026 &bull; KATRA, J&K
         </motion.p>
 
         <motion.div

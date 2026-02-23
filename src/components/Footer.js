@@ -17,9 +17,10 @@ export default function Footer() {
               <img src="/smvdu_logo.webp" alt="SMVDU Logo" className="h-12 w-auto" />
               <h3 className="font-heading text-2xl tracking-widest text-white">EKATVA</h3>
             </div>
-            <p className="font-body text-sm text-white/40 leading-relaxed mb-6">
+            <p className="font-body text-sm text-white/40 leading-relaxed mb-2">
               The annual techfest of Shri Mata Vaishno Devi University. Where technology meets divinity in the sacred hills of Katra.
             </p>
+            <p className="font-mono text-xs text-cyan-400/50 tracking-wider mb-6">MARCH 9 &ndash; 11, 2026 &bull; KATRA, J&amp;K</p>
             <div className="flex gap-3">
               {[
                 { icon: Instagram, url: 'https://www.instagram.com/smvduniversityofficial/', label: 'Instagram' },

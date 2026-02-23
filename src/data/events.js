@@ -40,10 +40,8 @@ export const EVENTS_DATA = {
   ],
 
   stats: [
-    { label: "Participants", value: "5000+" },
-    { label: "Prize Pool", value: "₹5L+" },
-    { label: "Events", value: "50+" },
-    { label: "Colleges", value: "100+" }
+    { label: "Participants", value: "500+" },
+    { label: "Events", value: "60+" },
   ],
 
   campusVenues: [
