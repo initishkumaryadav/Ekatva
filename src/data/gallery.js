@@ -4,7 +4,7 @@
  *
  * HOW TO ADD MEDIA DURING THE EVENT:
  * 1. Drop images into  public/gallery/  (e.g. public/gallery/day1-opening.jpg)
- * 2. Add an entry below with  src: "/gallery/day1-opening.jpg"
+ * 2. Add an entry below in the images array with  src: "/gallery/day1-opening.jpg"
  * 3. For YouTube videos, just paste the video ID (the part after v=)
  */
 
@@ -12,24 +12,9 @@ export const GALLERY_DATA = {
   /* ─── Categories / Tabs ─── */
   categories: ['All', 'Ekatva Fest', 'Titiksha Fest', 'Cultural Nights', 'Dance & Music', 'Campus Life', 'Official'],
 
-  /* ─── Images (placeholder Unsplash — replace with real event photos) ─── */
+  /* ─── Images — Add real event photos here during the fest ─── */
   images: [
-    { id: 'img-1',  src: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80', caption: 'Ekatva 2025 — Grand Inauguration at Matrika Auditorium', category: 'Ekatva Fest',     featured: true },
-    { id: 'img-2',  src: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&q=80', caption: 'Vice Chancellor addressing the crowd',                    category: 'Ekatva Fest',     featured: false },
-    { id: 'img-3',  src: 'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&q=80', caption: 'Tech Workshop — Hands-on AI Session',                      category: 'Ekatva Fest',     featured: false },
-    { id: 'img-4',  src: 'https://images.unsplash.com/photo-1559223607-a43c990c692c?w=800&q=80', caption: 'Classical Dance Performance at Cultural Evening',           category: 'Cultural Nights',  featured: false },
-    { id: 'img-5',  src: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80', caption: 'Star Night / DJ Night — SMVDU Campus',                     category: 'Cultural Nights',  featured: true },
-    { id: 'img-6',  src: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80', caption: 'Hackathon Teams in Action — CS Block',                     category: 'Ekatva Fest',     featured: true },
-    { id: 'img-7',  src: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80', caption: 'Competitive Programming at SMVDU Labs',                    category: 'Ekatva Fest',     featured: false },
-    { id: 'img-8',  src: 'https://images.unsplash.com/photo-1560439514-4e9645039924?w=800&q=80', caption: 'Robotics Competition at Sports Complex',                    category: 'Titiksha Fest',   featured: false },
-    { id: 'img-9',  src: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80', caption: 'Student Projects Exhibition — SMVDU',                       category: 'Titiksha Fest',   featured: false },
-    { id: 'img-10', src: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&q=80', caption: 'Gaming Tournament Finals',                                 category: 'Ekatva Fest',     featured: true },
-    { id: 'img-11', src: 'https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800&q=80', caption: 'Hackathon Final Demos at Matrika',                          category: 'Ekatva Fest',     featured: false },
-    { id: 'img-12', src: 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800&q=80', caption: 'Prize Distribution Ceremony — SMVDU',                      category: 'Official',        featured: true },
-    { id: 'img-13', src: 'https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=800&q=80', caption: 'All Departments Together — Team SMVDU',                    category: 'Campus Life',     featured: true },
-    { id: 'img-14', src: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80', caption: 'Panel Discussion — Future of Tech',                         category: 'Official',        featured: false },
-    { id: 'img-15', src: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80', caption: 'Volunteers Setting Up Stage at SMVDU',                      category: 'Campus Life',     featured: false },
-    { id: 'img-16', src: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80', caption: 'BPA Organizing Committee Meeting',                         category: 'Campus Life',     featured: false },
+    // Example: { id: 'img-1', src: '/gallery/day1-opening.jpg', caption: 'Ekatva 2026 — Opening Ceremony', category: 'Ekatva Fest', featured: true },
   ],
 
   /* ─── YouTube Videos — Real SMVDU / Ekatva / Titiksha content ─── */
