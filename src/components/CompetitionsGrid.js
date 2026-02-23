@@ -50,9 +50,14 @@ function TiltCard({ children, className }) {
   );
 }
 
+const DEPT_ORDER = ['CSE', 'ECE', 'MATH', 'EE', 'ME', 'CE', 'BT', 'ARCH', 'LANG', 'ECON', 'PHY'];
+
 export default function CompetitionsGrid() {
   const navigate = useNavigate();
-  const departments = EVENTS_DATA.departmentEvents;
+  const departments = [...EVENTS_DATA.departmentEvents].sort(
+    (a, b) => (DEPT_ORDER.indexOf(a.shortName) === -1 ? 999 : DEPT_ORDER.indexOf(a.shortName))
+            - (DEPT_ORDER.indexOf(b.shortName) === -1 ? 999 : DEPT_ORDER.indexOf(b.shortName))
+  );
 
   const handleDeptClick = (shortName) => {
     navigate(`/events#dept-${shortName.toLowerCase()}`);
@@ -89,7 +94,7 @@ export default function CompetitionsGrid() {
                 transition={{ delay: i * 0.06 }}
               >
                 <TiltCard
-                  className={`group rounded-2xl backdrop-blur-xl bg-white/[0.02] border ${dept.border} hover:bg-white/[0.05] hover:shadow-[0_0_40px_-8px] hover:shadow-current/10 transition-all duration-300 cursor-pointer flex flex-col h-full overflow-hidden`}
+                  className={`group rounded-2xl backdrop-blur-xl bg-white/[0.02] border ${dept.border} hover:bg-white/[0.04] hover:border-white/[0.12] transition-all duration-300 cursor-pointer flex flex-col h-full overflow-hidden`}
                 >
                   {/* Card Header */}
                   <div className={`px-5 sm:px-6 pt-5 sm:pt-6 pb-4 border-b border-white/[0.04] ${dept.bg}`}>

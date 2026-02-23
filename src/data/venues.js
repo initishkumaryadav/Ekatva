@@ -26,6 +26,8 @@ export const VENUE_LOCATIONS = [
     description: 'Central auditorium for ceremonies, pitches & presentations',
     x: 35,
     y: 22,
+    lat: 32.94195,
+    lng: 74.95330,
     color: '#00F0FF',   // cyan
   },
   {
@@ -35,6 +37,8 @@ export const VENUE_LOCATIONS = [
     description: 'Labs, hackathon venue & coding competitions',
     x: 55,
     y: 38,
+    lat: 32.94135,
+    lng: 74.95420,
     color: '#3B82F6',   // blue
   },
   {
@@ -44,6 +48,8 @@ export const VENUE_LOCATIONS = [
     description: 'Electrical labs, circuit challenges & breadboard battles',
     x: 68,
     y: 25,
+    lat: 32.94165,
+    lng: 74.95490,
     color: '#FACC15',   // yellow
   },
   {
@@ -53,6 +59,8 @@ export const VENUE_LOCATIONS = [
     description: 'Robotics arena, PCB design & hardware hackathons',
     x: 78,
     y: 42,
+    lat: 32.94110,
+    lng: 74.95540,
     color: '#A855F7',   // purple
   },
   {
@@ -62,6 +70,8 @@ export const VENUE_LOCATIONS = [
     description: 'Tesla showcase, robomania & mechanical workshops',
     x: 82,
     y: 60,
+    lat: 32.94080,
+    lng: 74.95580,
     color: '#EF4444',   // red
   },
   {
@@ -71,6 +81,8 @@ export const VENUE_LOCATIONS = [
     description: 'Bridge building, pavement design & construction labs',
     x: 25,
     y: 55,
+    lat: 32.94060,
+    lng: 74.95280,
     color: '#F97316',   // orange
   },
   {
@@ -80,6 +92,8 @@ export const VENUE_LOCATIONS = [
     description: 'Bio labs, DNA extraction & microscopy events',
     x: 15,
     y: 35,
+    lat: 32.94150,
+    lng: 74.95210,
     color: '#22C55E',   // green
   },
   {
@@ -89,6 +103,8 @@ export const VENUE_LOCATIONS = [
     description: 'Workshops, quizzes, panel discussions & poster sessions',
     x: 45,
     y: 55,
+    lat: 32.94050,
+    lng: 74.95370,
     color: '#06B6D4',   // cyan-dark
   },
   {
@@ -98,6 +114,8 @@ export const VENUE_LOCATIONS = [
     description: 'RC races, gaming arena & indoor sport events',
     x: 60,
     y: 72,
+    lat: 32.93980,
+    lng: 74.95450,
     color: '#10B981',   // emerald
   },
   {
@@ -107,6 +125,8 @@ export const VENUE_LOCATIONS = [
     description: 'Star night, cultural performances & ramp walk',
     x: 38,
     y: 78,
+    lat: 32.93960,
+    lng: 74.95310,
     color: '#EC4899',   // pink
   },
   {
@@ -116,6 +136,8 @@ export const VENUE_LOCATIONS = [
     description: 'Scavenger hunts, outdoor challenges & drone racing',
     x: 18,
     y: 72,
+    lat: 32.93990,
+    lng: 74.95180,
     color: '#14B8A6',   // teal
   },
   {
@@ -125,6 +147,8 @@ export const VENUE_LOCATIONS = [
     description: 'Pottery, sculpture, sketching & canvas painting',
     x: 48,
     y: 15,
+    lat: 32.94220,
+    lng: 74.95380,
     color: '#F472B6',   // pink-light
   },
   {
@@ -134,6 +158,8 @@ export const VENUE_LOCATIONS = [
     description: 'Marketing, branding, pitches & business challenges',
     x: 28,
     y: 40,
+    lat: 32.94130,
+    lng: 74.95260,
     color: '#2DD4BF',   // teal-light
   },
 ];

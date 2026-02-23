@@ -65,7 +65,7 @@ export default function RegistrationSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                   data-testid="reg-unstop-btn"
-                  className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl font-heading text-sm tracking-widest text-white bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-400 hover:to-purple-500 transition-all duration-300 shadow-[0_0_30px_-5px_rgba(0,240,255,0.3)] hover:shadow-[0_0_40px_-5px_rgba(0,240,255,0.5)] group"
+                  className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl font-heading text-sm tracking-widest text-white/90 hover:text-white bg-gradient-to-r from-cyan-500/70 to-purple-600/70 hover:from-cyan-500/85 hover:to-purple-600/85 border border-cyan-400/15 hover:border-cyan-400/25 transition-all duration-300 group"
                 >
                   REGISTER ON UNSTOP
                   <ExternalLink size={16} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />

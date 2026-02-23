@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  ChevronDown, Calendar, MapPin, ExternalLink, Search,
+  ChevronDown, Calendar, MapPin, ExternalLink, Search, Clock,
   Code, Beaker, Building2, HardHat, Zap, Cpu, Briefcase, Cog, Calculator, TrendingUp, Atom,
   X,
 } from 'lucide-react';
@@ -84,10 +84,27 @@ function EventCard({ event, config, onClick }) {
             {event.tagline}
           </p>
 
-          {/* Description */}
-          <p className="font-body text-xs text-white/35 line-clamp-2 mb-3 leading-relaxed">
-            {event.description}
-          </p>
+          {/* Date, Time & Venue */}
+          <div className="flex flex-col gap-1.5 mb-3">
+            {event.date && (
+              <div className="flex items-center gap-1.5">
+                <Calendar size={11} className={`${config.iconColor} shrink-0`} />
+                <span className="font-mono text-[10px] sm:text-[11px] text-white/50 truncate">{event.date}</span>
+              </div>
+            )}
+            {event.time && (
+              <div className="flex items-center gap-1.5">
+                <Clock size={11} className={`${config.iconColor} shrink-0`} />
+                <span className="font-mono text-[10px] sm:text-[11px] text-white/50 truncate">{event.time}</span>
+              </div>
+            )}
+            {event.venue && (
+              <div className="flex items-center gap-1.5">
+                <MapPin size={11} className={`${config.iconColor} shrink-0`} />
+                <span className="font-mono text-[10px] sm:text-[11px] text-white/50 truncate">{event.venue}</span>
+              </div>
+            )}
+          </div>
 
           {/* Register button */}
           {event.registerUrl && (
@@ -200,6 +217,28 @@ function EventModal({ event, config, onClose }) {
             {event.tagline}
           </p>
 
+          {/* Date, Time & Venue */}
+          <div className="flex flex-wrap gap-x-5 gap-y-2 mb-5">
+            {event.date && (
+              <div className="flex items-center gap-2">
+                <Calendar size={14} className={config?.iconColor || 'text-cyan-400'} />
+                <span className="font-mono text-xs text-white/60">{event.date}</span>
+              </div>
+            )}
+            {event.time && (
+              <div className="flex items-center gap-2">
+                <Clock size={14} className={config?.iconColor || 'text-cyan-400'} />
+                <span className="font-mono text-xs text-white/60">{event.time}</span>
+              </div>
+            )}
+            {event.venue && (
+              <div className="flex items-center gap-2">
+                <MapPin size={14} className={config?.iconColor || 'text-cyan-400'} />
+                <span className="font-mono text-xs text-white/60">{event.venue}</span>
+              </div>
+            )}
+          </div>
+
           {/* Description */}
           <p className="font-body text-sm text-white/50 leading-relaxed mb-6">
             {event.description}
@@ -226,9 +265,15 @@ function EventModal({ event, config, onClose }) {
   );
 }
 
+/* ─── Department display order: Tech first, then non-tech ─── */
+const DEPT_ORDER = ['CSE', 'ECE', 'MATH', 'EE', 'ME', 'CE', 'BT', 'ARCH', 'LANG', 'ECON', 'PHY'];
+
 /* ─── Events Page ─── */
 export default function EventsPage() {
-  const departments = EVENTS_DATA.departmentEvents;
+  const departments = [...EVENTS_DATA.departmentEvents].sort(
+    (a, b) => (DEPT_ORDER.indexOf(a.shortName) === -1 ? 999 : DEPT_ORDER.indexOf(a.shortName))
+            - (DEPT_ORDER.indexOf(b.shortName) === -1 ? 999 : DEPT_ORDER.indexOf(b.shortName))
+  );
   const [activeFilter, setActiveFilter] = useState('all');
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedEvent, setSelectedEvent] = useState(null);

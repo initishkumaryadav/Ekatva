@@ -75,10 +75,11 @@ export default function HeroSection() {
           <button
             onClick={() => document.getElementById('register')?.scrollIntoView({ behavior: 'smooth' })}
             data-testid="hero-register-btn"
-            className="group relative px-8 py-4 rounded-full font-body text-sm tracking-wider uppercase overflow-hidden transition-transform duration-200 hover:scale-105 active:scale-[0.98]"
+            className="group relative px-8 py-4 rounded-full font-body text-sm tracking-wider uppercase overflow-hidden transition-all duration-300 hover:scale-[1.03] active:scale-[0.98]"
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-purple-600 opacity-90 group-hover:opacity-100 transition-opacity" />
-            <span className="relative z-10 text-white font-semibold">Register Now</span>
+            <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/80 to-purple-600/80 group-hover:from-cyan-500/90 group-hover:to-purple-600/90 transition-all duration-300" />
+            <div className="absolute inset-[1px] rounded-full bg-[#0a0a0a]/40" />
+            <span className="relative z-10 text-white/90 group-hover:text-white font-semibold transition-colors">Register Now</span>
           </button>
           <button
             onClick={() => document.getElementById('events')?.scrollIntoView({ behavior: 'smooth' })}
